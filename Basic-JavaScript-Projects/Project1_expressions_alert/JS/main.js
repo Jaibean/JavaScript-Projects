@@ -17,3 +17,7 @@ document.write(result);
 
 var ex = (3 + 3);
 document.write(ex);  //an expression 
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date(); //date function
+}
