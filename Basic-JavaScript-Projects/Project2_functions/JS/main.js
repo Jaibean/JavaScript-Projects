@@ -9,3 +9,11 @@ function myFunction() {
 	sentence += " a lot from this book!";
 	document.getElementById("concatenate").innerHTML = sentence;  //concatenation within a function using operators 
 }
+
+function fun(x, y){
+	return x + y;
+}
+
+var test = fun(4,3);
+document.getElementById("demo").innerHTML = test;
+
