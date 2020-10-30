@@ -39,7 +39,7 @@ function sweetFunction() {
 }
 
 function count_Function() {
-	document.getElementById("Nested_function").innerHTML = Count();           //nested function
+	document.getElementById("Counting").innerHTML = Count();           //nested function
 	function Count() {
 		var Starting_point = 9;
 		function Plus_one()  {
