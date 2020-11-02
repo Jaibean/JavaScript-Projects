@@ -1,5 +1,5 @@
 // Variable declared globally
-const color = 'blue';
+cont color = 'blue';
 
 function printColor() {
   console.log(color);
@@ -39,7 +39,7 @@ function plantsNeedWater() {
 	} else  {
 		water = "It is time to water the plants";
 	}
-	document.getElementByID("plants").innerHTML = water;
+	document.getElementById("plants").innerHTML = water;
 }
 
 
