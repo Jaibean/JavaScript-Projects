@@ -1,5 +1,5 @@
 // Variable declared globally
-cont color = 'blue';
+const color = 'blue';
 
 function printColor() {
   console.log(color);
