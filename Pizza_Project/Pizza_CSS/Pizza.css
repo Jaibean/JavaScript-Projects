@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+	background-color: darkred;
+}
+
+h1 {
+	font-family: "Arial";
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	font-family: "Courier";
+	margin: auto;
+	text-align: center;
+}
+h3 {
+	font-family: "verdana";
+	color: white;
+}
+div {
+	font-family: "Courier";
+	color: white;
+}
+#menuBG {
+	width: 660px;
+	heigh: 470px;
+	margin: 10px auto;
+}
+
+#frmMenu {
+	width: 660px;
+	heigh: 200px;
+}
+
+#TotalPrice {
+	width: 200px;
+	heigh: 190px;
+	margin: 0 auto;
+	float: right;
+}
+.menu {
+	margin: 10px;
+}
+.left {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.center {
+	width:200px;
+	height:200px;
+	float: left;
+}
+.right {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#showText {
+	width: 200px;
+	height: 190px;
+	margin: 0px auto;
+	float: left;
+}
+
+#cart {
+	top:0; 
+	margin:0px auto;
+	width: 400px;
+	height: 200px;
+}
+
+#btnOrder {
+	margin: 25px auto;
+	width: 100px;
+	height: 40px;
+	display: block;
+}
