@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>XML Challenge</title>
+</head>
+
+<body>
+	<p id="XML_Example"></p>
+	<script>
+		var XML_Parser, XML_Document;
+		
+		//creates a text string
+		var Movie = "<movie>" +
+			"<title>Schindler\'s List</title>" +
+			"<director>Steven Spielberg</director>" +
+			"<starring>Liam Neeson</starring>" +
+			"<year>1993</year>" +
+			"</movie>";
+		
+		// creates an XML DOM parser
+		XML_Parser = new DOMParser();
+		//creates a new XML DOM objext using the text string
+		XML_Document = XML_Parser.parseFromString(Movie, "text/xml");
+		
+		document.getElementById("XML_Example").innerHTML = XML_Document.getElementsByTagName("title")[0].childNodes.nodeValue;
+	
+	
+	</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 // Variable declared globally
-const color = 'blue';
+var color = 'blue';
 
 function printColor() {
   console.log(color);
@@ -34,7 +34,8 @@ console.log(plantNeedsWater('Tuesday')); */
 
 function plantsNeedWater() {
 	day = document.getElementById("day").value;
-	if (day === 'Wednesday') {
+	day = day.toLowerCase();
+	if (day === 'wednesday') {
 		water = "You do not need to water the plants today";
 	} else  {
 		water = "It is time to water the plants";
