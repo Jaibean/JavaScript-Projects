@@ -12,13 +12,13 @@ function Call_Loop() {
 // for loop calling to the console
 
 var instruments = ['Bass', 'Guitar', 'Drums'];
-for (let i = 0; i < instruments.length; i++){
+for (i = 0; i < instruments.length; i++){
   console.log(`I would love to play ${instruments[i]}`);
 }
 
 // for loop calling to html
 
-var for_Loop = ['Bass', 'Guitar', 'Drums'];
+var Insts = ['Bass', 'Guitar', 'Drums'];
 var content = "";
 var Y;
 function for_Loop() {
@@ -71,7 +71,7 @@ let car = {
 	year: "2019 ",
 	color: "black ",
 	description: function() {
-		return "The is a " + this.year + this.color + this.make + this.model;
+		return "The car is a " + this.year + this.color + this.make + this.model;
 	}
 	
 };
