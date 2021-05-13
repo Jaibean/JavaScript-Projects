@@ -72,8 +72,12 @@ body.fade-out {
   background-color: #F4F4F4; /*  This defines the background color that will display when you hover over the text on the navbar */
   color: #41354D; /* This defines the font color that will display when you hover over the text on the navbar */ 
   cursor: pointer;
+	border-radius: 6px;
+	text-decoration: none;
   webkit-transition-duration: 1s; 
   transition-duration: 1s;
+	
+	
 }
 
 /* Navbar home button */
@@ -271,14 +275,15 @@ h1 {
 	font-family: "Trebuchet MS", Optima; 
 	text-align: center;
 	margin-top: 3%; /* We are adding a small margin above the headings */
-	color: #1a1a1a;
+	color: #41354D;
+	text-shadow: 2px 2px 2px #5D9B84;
 }
 
 /* Paragraph elements */
 p {
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: Karla, Rockwell Extra Bold;
 	text-align: justify;
-	letter-spacing: .1vw; /* This expands the text slightly */
+	letter-spacing: 1px; /* This expands the text slightly */
 	font-size: 1.5vw;
 	padding-left: 1vw;
 	padding-right: 1vw;
@@ -286,9 +291,8 @@ p {
 
 /* Center align elements - this embraces all centered text */
 center {
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: Karla, Rockwell Extra Bold;
 	text-align: center;
-	letter-spacing: .1vw;
 	font-size: 1.5vw;
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -301,8 +305,7 @@ a {
 
 /* Quotation elements */
 q {
-	font-style: italic;
-	font-weight: bold;
+ 	font-weight: bold;
 }
 
 /* Image elements */
